@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --theme: #A28075;
+}
+
+body {
+  font-family: "Catamaran", sans-serif !important;
+}
+
+.catamaran {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.ctheme {
+  color: var(--theme);
+}
+
+.cactive {
+  color: var(--theme);
+}
+
+.chtheme:hover {
+  color: #A28075;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* nprogress.css */
+#nprogress .bar {
+  background: #29D; /* The color of the progress bar */
+  height: 3px; /* The height of the progress bar */
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #29D; /* The color of the spinner */
+}
+
+/* ======= Services style ======= */
+.services {
+  overflow: hidden;
+}
+
+.services .item {
+  margin-bottom: 3em;
+}
+
+.services .item .wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.services .item .wrap .img {
+  position: relative;
+  background-color: #0c0c0c;
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+.services .item .wrap .img img {
+  width: 100%;
+  margin: 0;
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+  background-size: cover;
+}
+
+.services .item .wrap:hover img {
+  opacity: 0.3;
+}
+
+.services .item .wrap:hover .img {
+  transform: scale(0.95);
+}
+
+.services .item .wrap:hover .text {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.services .item .wrap .text {
+  position: absolute;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: 700ms cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+.services .item .wrap .text h4 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.services .item .wrap .text p {
+  color: var(--theme);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.btn-theme {
+  background-color: var(--theme) !important;
+  border-color: var(--theme) !important;
+}
+.btn-theme:hover {
+  background-color: #A28075 !important;
+  border-color: #A28075 !important;
+}
+
+#nprogress .bar {
+  background: var(--theme) !important; /* Example customization */
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--theme), 0 0 5px var(--theme) !important;
+}/*# sourceMappingURL=globals.css.map */
