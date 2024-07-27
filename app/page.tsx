@@ -4,7 +4,7 @@
 import Image from 'next/image';
 import { CheckIcon } from "@heroicons/react/24/outline";
 import ClientSlider from '@/components/clientSlider';
-import Testimonial from '@/components/testimonials';
+import Testimonials from '@/components/testimonials';
 
 
 export default function Home() {
@@ -132,18 +132,18 @@ export default function Home() {
       </section>
 
       {/* About us Section */}
-      <section className="py-16 bg-[#F9F7F7]">
+      <section className="py-8 md:py-16 bg-[#F9F7F7]">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:16">
             <h2 className='text-3xl md:text-5xl'>About Us</h2>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid md:grid-cols-2 grid-cols-1  gap-4">
             <div className="column">
               <h4 className='ctheme font-semibold text-sm'>SERVICES THAT I PROVIDE</h4>
-              <h2 className='text-3xl md:text-5xl mb-3'>BookMyLook</h2>
+              <h2 className='text-3xl md:text-5xl mb-3 mt-3'>BookMyLook</h2>
               <p className='leading-8'>Welcome to <b>BookMyLook</b>, your ulti mate destination for connecting with top-tier makeup artists at your fingertips. We are an innovative online platform designed to bring the best beauty professionals to your doorstep, making it easier than ever to find, book, and enjoy exceptional makeup services.</p>
-              <ul className='columns-2 pl-0'>
+              <ul className='columns-2 pl-0 mt-10'>
                 <li className='flex items-center mb-2'><CheckIcon className="w-5 h-5 bold mr-2  ctheme" />Face Makeup</li>
                 <li className='flex items-center mb-2'><CheckIcon className="w-5 h-5 bold mr-2  ctheme" />Bridal Makeup</li>
                 <li className='flex items-center mb-2'><CheckIcon className="w-5 h-5 bold mr-2  ctheme" />Wedding Makeup</li>
@@ -153,20 +153,20 @@ export default function Home() {
               </ul>
               {/* our mission */}
               <div className="">
-                <h4 className='ctheme font-semibold text-2xl mt-10'>Our Mission</h4>
+                <h4 className='ctheme font-semibold text-2xl mt-10 mb-3'>Our Mission</h4>
                 <p>At BookMyLook, our mission is to revolutionize your beauty service experience. We aim to provide a seamless, convenient, and personalized journey for both clients and makeup artists. Leveraging technology, we strive to create a thriving community where beauty professionals can showcase their talents and clients can discover the perfect match for their needs.</p>
-                <a href="#" className='mt-3 rounded-sm py-3 px-6 block btn-theme text-white w-[150px] text-center'>Read More</a>
+                <a href="#" className='mt-5 rounded-sm py-3 px-6 block btn-theme text-white w-[150px] text-center'>Read More</a>
               </div>
 
             </div>
 
-            <div className="column relative">
-              <div>
-                <div className="absolute right-0 top-0">
-                  <Image width={300} height={300}  style={{ height: '250px', width: 'auto' }}  alt="image" src="/images/services/5.jpg" />
+            <div className="column">
+              <div className='relative flex justify-center items-center md:flex-col'>
+                <div className="relative md:absolute md:right-0 md:top-0">
+                  <Image width={300} height={400}  style={{ height: '300', width: 'auto' }}  alt="image" src="/images/services/5.jpg" />
                 </div>
-                <div className="absolute right-1/4 bottom-40">
-                  <Image width={300} height={400}  style={{ height: '250px', width: 'auto' }}  alt="image" src="/images/services/4.jpg" />
+                <div className="relative md:absolute md:right-1/4 md:top-20">
+                  <Image width={400} height={400}   alt="image" src="/images/services/4.jpg" />
                 </div>
               </div>
             </div>
@@ -197,7 +197,7 @@ export default function Home() {
       </section>
 
       {/* Testimonial Section */}
-      <section><Testimonial/></section>
+      <section><Testimonials/></section>
 
       
     </>

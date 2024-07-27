@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
           height={3}
           startPosition={0.3}
           stopDelayMs={200}
+          showSpinner={false}
         />
 
         <Header />

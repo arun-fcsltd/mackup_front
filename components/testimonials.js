@@ -57,7 +57,7 @@ const Testimonials = () => {
                                                 <div className="flex items-center">
 
                                                     <div className="border-2 p-[4px] rounded-full border-[#ecd8d4]">
-                                                        <Image width={60} height={60} style={{height:'auto',width:'auto'}} className='rounded-full' src="https://duruthemes.com/demo/html/noda/light/images/team/03.jpg" alt="" /> </div>
+                                                        <Image width={60} height={60} style={{height:'auto',width:'auto'}} className='rounded-full' src="/images/03.jpg" alt="" /> </div>
                                                     <div className="ml-4">
                                                         <h6 className="text-xl mb-1 tracking-wider text-gray-800 font-bold">John Smith</h6> <span className="text-gray-400">Customer</span>
                                                     </div>
@@ -77,7 +77,7 @@ const Testimonials = () => {
                                                 <div className="flex items-center">
 
                                                     <div className="border-2 p-[4px] rounded-full border-[#ecd8d4]">
-                                                        <Image width={60} height={60} style={{height:'auto',width:'auto'}} className='rounded-full' src="https://duruthemes.com/demo/html/noda/light/images/team/03.jpg" alt="" /> </div>
+                                                        <Image width={60} height={60} style={{height:'auto',width:'auto'}} className='rounded-full' src="/images/03.jpg" alt="" /> </div>
                                                     <div className="ml-4">
                                                         <h6 className="text-xl mb-1 tracking-wider text-gray-800 font-bold">William Smith</h6> <span className="text-gray-400">Customer</span>
                                                     </div>

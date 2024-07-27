@@ -121,8 +121,8 @@ export default function Header() {
             <Link href="book-artist" className="text-sm font-semibold leading-6 text-gray-900 uppercase chtheme">
               Book Artist
             </Link>
-            <Link href="contact" className="text-sm font-semibold leading-6 text-gray-900 uppercase chtheme text[none]">
-              Contact
+            <Link href="services" className="text-sm font-semibold leading-6 text-gray-900 uppercase chtheme text[none]">
+              Services
             </Link>
             <div className="relative">
               <input
@@ -197,7 +197,7 @@ export default function Header() {
                     Home
                   </Link>
                   <Link onClick={() => setMobileMenuOpen(false)}
-                    href="artist"
+                    href="artists"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 uppercase chtheme"
                   >
                     Artists
@@ -209,10 +209,10 @@ export default function Header() {
                     Book Artist
                   </Link>
                   <Link onClick={() => setMobileMenuOpen(false)}
-                    href="contact"
+                    href="services"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 uppercase chtheme"
                   >
-                    Contact
+                    Services
                   </Link>
                 </div>
                 <div className="py-6">

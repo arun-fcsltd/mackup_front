@@ -49,26 +49,26 @@ const Footer = () => {
     <>
       <div className="container mt-16 mx-auto px-4">
         <h3 className='uppercase font-semibold text-4xl mb-8  text-center'>Contact Us </h3>
-        <div className="rounded-xl p-8 bg-[var(--theme)] flex items-center justify-between mb-[-4em] relative z-[10]">
-          <div className="w-full md:w-1/3 flex">
-            <Image src="../images/footer/call.svg" className='mr-4' width={60} height={60} alt="logo" />
+        <div className="rounded-xl p-4 md:p-8 bg-[var(--theme)] flex flex-wrap md:flex-nowrap items-center justify-between mb-[-4em] relative z-[10]">
+          <div className="w-full md:w-1/3 flex mb-3 md:mb-0">
+            <Image  src="../images/footer/call.svg" className='mr-4 w-8 h-8 md:w-16 md:h-16' width={60} height={60} alt="logo" />
             <div>
               <p className="text-white mb-0 text-md">Call Now</p>
-              <h4 className='text-white text-normal text-xl'>+91 9871551426</h4>
+              <h4 className='text-white text-normal text-xl md:text-xl'>+91 9871551426</h4>
             </div>
           </div>
-          <div className="w-full md:w-1/3 flex">
-            <Image src="../images/footer/email.svg" className='mr-4' width={60} height={60} alt="logo" />
+          <div className="w-full md:w-1/3 flex mb-3 md:mb-0">
+            <Image src="../images/footer/email.svg" className='mr-4 w-8 h-8 md:w-16 md:h-16' width={60} height={60} alt="logo" />
             <div>
               <p className="text-white mb-0 text-md">Email</p>
-              <h4 className='text-white text-normal text-xl'>arun@example.com</h4>
+              <h4 className='text-white text-normal text-xl md:text-xl'>arun@example.com</h4>
             </div>
           </div>
-          <div className="w-full md:w-1/3 flex">
-            <Image src="../images/footer/address.svg" className='mr-4' width={60} height={60} alt="logo" />
+          <div className="w-full md:w-1/3 flex mb-3 md:mb-0">
+            <Image src="../images/footer/address.svg" className='mr-4 w-8 h-8 md:w-16 md:h-16' width={60} height={60} alt="logo" />
             <div>
               <p className="text-white mb-0 text-md">Address</p>
-              <h4 className='text-white text-normal text-xl'>New Delhi, India-110076</h4>
+              <h4 className='text-white text-normal text-xl md:text-xl'>New Delhi, India-110076</h4>
             </div>
           </div>
         </div>
@@ -77,7 +77,7 @@ const Footer = () => {
 
 
       {/* footer Start */}
-      <footer className="bg-[#000] text-white pt-[9em] px-4">
+      <footer className="bg-[#000] text-white pt-[6em] md:pt-[8em]  px-4">
         <div className="mx-auto px-4 container overflow-hidden flex flex-col lg:flex-row justify-between">
           <div className="w-full md:w-3/9 pr-0 md:pr-16">
             <h3 className="uppercase font-normal text-2xl text-white">About Us</h3>
@@ -111,9 +111,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="w-full md:w-3/9">
+          <div className="w-full md:w-3/9 mt-8 md:mt-0">
             <h3 className="uppercase font-normal text-2xl mb-4">Quick Links</h3>
-            <ul className='list-disc'>
+            <ul className='list-disc pl-[25px]'>
               {quickLink.map((link, qlinkIndex) => {
                 return (
                   <li key={qlinkIndex} className='mb-2'><Link href={link.url} className='text-white'>{link.name}</Link></li>
@@ -122,7 +122,7 @@ const Footer = () => {
               })}
             </ul>
           </div>
-          <div className="w-full md:w-3/9">
+          <div className="w-full md:w-3/9 mt-8 md:mt-0">
             <h3 className="uppercase font-normal text-2xl mb-4">Our Services</h3>
             <ul className='pl-0'>
               {serviesLinks.map((link, secviceIndex) => (

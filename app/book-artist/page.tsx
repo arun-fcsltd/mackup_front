@@ -1,9 +1,9 @@
 'use client'
-import Testimonials from '@/components/testimonials';
 import BookArtistForm from '@/components/bookingArtistForm';
 import Breadcrumb from '@/components/breadcrumb';
+import Testimonials from '@/components/testimonials';
 
-const ARTIST = () => {
+const Artist = () => {
 
     return (
         <>
@@ -33,4 +33,4 @@ const ARTIST = () => {
         </>
     )
 }
-export default ARTIST;
+export default Artist;

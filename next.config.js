@@ -1,7 +1,7 @@
 // next.config.js
 module.exports = {
     images: {
-      domains: ['shtheme.com', 'duruthemes.com'], // Add your external domains here
+      domains: [''], // Add your external domains here
     },
     webpack: (config, { dev }) => {
       if (!dev) {
