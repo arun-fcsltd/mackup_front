@@ -50,7 +50,7 @@ export default function Header() {
       <header className="bg-white">
         <nav aria-label="Global" className="mx-auto flex container py-4 items-center justify-between px-4">
           <div className="flex lg:flex-1">
-            <Link href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5" >
               <span className="sr-only">Your Company</span>
               <Image alt="logo" src="../images/logo.svg" width={150} height={78} />
             </Link>
@@ -115,7 +115,7 @@ export default function Header() {
             </PopoverPanel>
           </Popover> */}
 
-            <Link href="artists" className="text-sm font-semibold leading-6 text-gray-900 uppercase chtheme">
+            <Link href="artists" className="text-sm font-semibold leading-6 text-gray-900 uppercase chtheme" >
               Artists
             </Link>
             <Link href="book-artist" className="text-sm font-semibold leading-6 text-gray-900 uppercase chtheme">
@@ -190,25 +190,25 @@ export default function Header() {
                     ))}
                   </DisclosurePanel>
                 </Disclosure> */}
-                  <Link
+                  <Link onClick={() => setMobileMenuOpen(false)}
                     href="/"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 uppercase chtheme"
                   >
                     Home
                   </Link>
-                  <Link
+                  <Link onClick={() => setMobileMenuOpen(false)}
                     href="artist"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 uppercase chtheme"
                   >
                     Artists
                   </Link>
-                  <Link
+                  <Link onClick={() => setMobileMenuOpen(false)}
                     href="book-artist"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 uppercase chtheme"
                   >
                     Book Artist
                   </Link>
-                  <Link
+                  <Link onClick={() => setMobileMenuOpen(false)}
                     href="contact"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 uppercase chtheme"
                   >
@@ -216,13 +216,13 @@ export default function Header() {
                   </Link>
                 </div>
                 <div className="py-6">
-                  <Link
+                  <Link onClick={() => setMobileMenuOpen(false)}
                     href="login"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 chtheme"
                   >
                     Log in
                   </Link>
-                  <Link
+                  <Link onClick={() => setMobileMenuOpen(false)}
                     href="signup"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 chtheme"
                   >
