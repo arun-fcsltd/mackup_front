@@ -3,8 +3,8 @@
 'use client'
 import Image from 'next/image';
 import { CheckIcon } from "@heroicons/react/24/outline";
-import ClientSlider from '@/components/clientSlider';
-import Testimonials from '@/components/testimonials';
+import ClientSlider from '@/components/ClientSlider';
+import Testimonials from '@/components/Testimonials';
 
 
 export default function Home() {

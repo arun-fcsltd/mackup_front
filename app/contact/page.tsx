@@ -1,7 +1,7 @@
 // pages/about.js
 
 import Link from 'next/link'
-import Breadcrumb from '@/components/breadcrumb'
+import Breadcrumb from '@/components/Breadcrumb'
 
 
 export default function Contact() {
