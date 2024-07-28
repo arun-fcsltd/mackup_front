@@ -2,7 +2,7 @@
 import Testimonials from '@/components/testimonials';
 import StarRating from '@/components/StarRating';
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import ArtistCard from '@/components/ArtistCard';
+import ArtistCard from '@/components/artistCard';
 import Breadcrumb from '@/components/breadcrumb';
 
 
