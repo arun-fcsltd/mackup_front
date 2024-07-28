@@ -4,7 +4,7 @@ const Login = () => {
     
     return (
         <>
-            <section className="bg-gray-50">
+            <section className="bg-gray-50 dark:bg-gray-900">
                 <div className="flex flex-col items-center justify-center py-8 mx-auto md:h-screen lg:py-0">
                     <a href="#" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
                         <Image src="../images/logo.svg"  width={150} height={90} alt="logo" />
@@ -32,7 +32,7 @@ const Login = () => {
                                             <label htmlFor="remember" className="text-gray-500 dark:text-gray-300">Remember me</label>
                                         </div>
                                     </div>
-                                    <a href="#" className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a>
+                                    <a href="#" className="text-sm font-medium text-primary-600 hover:underline dark:text-gray-300">Forgot password?</a>
                                 </div>
                                 <button type="submit" className="w-full text-white theme hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 bg-blue-700">Sign in</button>
                                 <p className="text-sm font-light text-gray-500 dark:text-gray-400">
