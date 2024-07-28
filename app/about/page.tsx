@@ -16,7 +16,6 @@ const About = ()=> {
           <div className="text-center mb-10 md:16">
             <h2 className='text-3xl md:text-4xl'>About Us</h2>
           </div>
-
           <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
             <div className="column">
               <h4 className='ctheme font-semibold text-sm'>SERVICES THAT I PROVIDE</h4>
