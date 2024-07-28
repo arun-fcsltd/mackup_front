@@ -1,9 +1,9 @@
 'use client'
-import Breadcrumb from '@/components/Breadcrumb';
-import ArtistCard from '@/components/ArtistCard';
 import Testimonials from '@/components/Testimonials';
 import StarRating from '@/components/StarRating';
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import ArtistCard from '@/components/ArtistCard';
+import Breadcrumb from '@/components/Breadcrumb';
 
 
 
