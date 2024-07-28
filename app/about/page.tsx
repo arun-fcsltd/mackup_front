@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { CheckIcon } from '@heroicons/react/24/outline';
 import Breadcrumb from '@/components/breadcrumb';
-import ClientSlider from '@/components/ClientSlider';
+import ClientSlider from '@/components/clientSlider';
 
 const About = () => {
   return (

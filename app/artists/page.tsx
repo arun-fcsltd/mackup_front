@@ -1,5 +1,5 @@
 'use client'
-import Testimonials from '@/components/Testimonials';
+import Testimonials from '@/components/testimonials';
 import StarRating from '@/components/StarRating';
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import ArtistCard from '@/components/ArtistCard';
