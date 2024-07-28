@@ -1,7 +1,7 @@
 // components/BookingArtistForm.js
 import { useForm } from 'react-hook-form';
 
-const BookingArtistForm = () => {
+const BookArtistForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = (data) => {
@@ -172,4 +172,4 @@ const BookingArtistForm = () => {
   );
 };
 
-export default BookingArtistForm;
+export default BookArtistForm;

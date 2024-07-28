@@ -1,5 +1,5 @@
 'use client'
-import BookArtistForm from '@/components/BookingArtistForm';
+import BookArtistForm from '@/components/bookingArtistForm';
 import Breadcrumb from '@/components/breadcrumb';
 import Testimonials from '@/components/testimonials';
 
