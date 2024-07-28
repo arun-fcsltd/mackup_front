@@ -1,9 +1,9 @@
 // pages/about.js
 'use client'
-import Breadcrumb from '@/components/Breadcrumb'
 import Image from 'next/image'
-import ClientSlider from '@/components/ClientSlider';
 import {CheckIcon} from '@heroicons/react/24/outline'
+import Breadcrumb from '@/components/Breadcrumb'
+import ClientSlider from '@/components/ClientSlider';
 
 
 
