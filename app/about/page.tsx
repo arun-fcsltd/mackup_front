@@ -1,13 +1,13 @@
 'use client'
 import Image from 'next/image';
 import { CheckIcon } from '@heroicons/react/24/outline';
-// import Breadcrumb from '@/components/Breadcrumb';
-// import ClientSlider from '@/components/ClientSlider';
+import Breadcrumb from '@/components/breadcrumb';
+import ClientSlider from '@/components/ClientSlider';
 
 const About = () => {
   return (
     <>
-      {/* <Breadcrumb title={"About Us"} /> */}
+      <Breadcrumb title={"About Us"} />
       {/* About us Section */}
       <section className="py-8 md:py-16 bg-[#F9F7F7]">
         <div className="container mx-auto px-4">
@@ -51,7 +51,7 @@ const About = () => {
             </div>
           </div>
           <div className="pt-10">
-            {/* <ClientSlider /> */}
+            <ClientSlider />
           </div>
         </div>
       </section>

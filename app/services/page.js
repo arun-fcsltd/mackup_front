@@ -1,7 +1,7 @@
 // pages/about.js
 
 import Link from 'next/link'
-import Breadcrumb from '@/components/Breadcrumb'
+import Breadcrumb from '@/components/breadcrumb'
 
 
 const Services = () => {

@@ -1,6 +1,6 @@
 'use client'
 import BookArtistForm from '@/components/BookingArtistForm';
-import Breadcrumb from '@/components/Breadcrumb';
+import Breadcrumb from '@/components/breadcrumb';
 import Testimonials from '@/components/Testimonials';
 
 const Artist = () => {
