@@ -1,10 +1,11 @@
 // pages/about.js
 
+'use client'
 import Link from 'next/link'
 import Breadcrumb from '@/components/Breadcrumb'
 
 
-export default function Contact() {
+const Contact = () => {
   return (
     <>
       <Breadcrumb title={"Contact Us"} />
@@ -16,3 +17,4 @@ export default function Contact() {
     </>
   )
 }
+export default Contact;

@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         <NextTopLoader
-          height={3}
+          height={2}
           startPosition={0.3}
           stopDelayMs={200}
           showSpinner={false}

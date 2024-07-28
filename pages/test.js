@@ -9,7 +9,6 @@ export default function Test() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-          <img className="banner-image" src="https://i.ibb.co/sVqYmS2/Illustration.png" alt="Illustration" />
 
             </div>
       <div className="col-md-6">

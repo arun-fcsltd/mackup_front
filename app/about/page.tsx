@@ -7,7 +7,7 @@ import {CheckIcon} from '@heroicons/react/24/outline'
 
 
 
-export default function About() {
+const About = ()=> {
   return (
     <>
        <Breadcrumb title={"About Us"} />
@@ -92,3 +92,4 @@ export default function About() {
     </>
   )
 }
+export default About

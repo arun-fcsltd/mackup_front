@@ -1,10 +1,10 @@
 // pages/about.js
 
 import Link from 'next/link'
-import Breadcrumb from '@/components/breadcrumb'
+import Breadcrumb from '@/components/Breadcrumb'
 
 
-export default function About() {
+const Services = () => {
   return (
     <>
     <Breadcrumb title={"Services"} />
@@ -16,3 +16,5 @@ export default function About() {
     </>
   )
 }
+
+export default Services
